@@ -8,5 +8,10 @@ Firstly,the Python script kmer.py should be used to get a feature file with a FA
 Then the RF model which is stored in Rdata file "RF.model.Rdata" can be used to predict the Z-score of the sequence.
 ```
 ### Demonstration
-
-A demonstration is shown in the folder example.
+Two DNA sequences is used to predict Z-score:
+```
+>chr6:36634989-36635089
+TCTGGCACCCTGCAAGGCCGCATGATGATGCAACAATGCAACAAAAGACAAGCCCGGGCAAGGCCAGCGGGAGCTCTGCCGGCCAGAGTTGCTGATGCGA
+>chr6:36635104-36635204
+TGGGGAGGGTGTTTCAGGGCTGCAGGGAAGTGGGAGGCCCCAACTGCCCAGGAGGCAAAACTGGCCTCCTGCTCACTCAGCCATGAGCTTTTCTACCCCA
+```
