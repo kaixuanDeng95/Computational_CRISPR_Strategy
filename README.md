@@ -1,7 +1,7 @@
 # Crisper
 ### Requires
 - R>=3.5<br>
-- R packages:RandomForest,glmnet,e1071 and kernlab<br>
+- R packages: RandomForest,glmnet,e1071 and kernlab<br>
 ### How to Use
 ```
 Firstly,the Python script kmer.py should be used to get a feature file with a FASTA format input file.Then the Rdata file RF.model.Rdata
