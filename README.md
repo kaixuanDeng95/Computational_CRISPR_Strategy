@@ -1,4 +1,4 @@
-# Crisper
+## Crisper
 ### Requires
 - R>=3.5<br>
 - R packages: RandomForest,glmnet,e1071 and kernlab<br>
@@ -9,4 +9,4 @@ Then the Rdata file RF.model.Rdata can be used to predict the Z-score of the seq
 ```
 ### Demonstration
 
-A demonstration is shown in 
+A demonstration is shown in the folder example.
