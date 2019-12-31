@@ -1,0 +1,2 @@
+#The kmer script should be used as below in command line:
+python kmer.py example.fasta 7
