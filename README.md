@@ -2,6 +2,10 @@
 ### Requires
 - R>=3.5<br>
 - R packages: RandomForest,glmnet,e1071 and kernlab<br>
+### Install
+```
+git clone git@github.com:kaixuanDeng95/computational-CRISPR-strategy.git
+```
 ### How to Use
 ```
 Firstly,the Python script kmer.py should be used to get a feature file with a FASTA format input file.
@@ -16,6 +20,18 @@ TCTGGCACCCTGCAAGGCCGCATGATGATGCAACAATGCAACAAAAGACAAGCCCGGGCAAGGCCAGCGGGAGCTCTGCC
 >chr6:36635104-36635204
 TGGGGAGGGTGTTTCAGGGCTGCAGGGAAGTGGGAGGCCCCAACTGCCCAGGAGGCAAAACTGGCCTCCTGCTCACTCAGCCATGAGCTTTTCTACCCCA
 ```
+#### feature file
+```
+The feature file is a text file with 2 rows and 16384 columns.
+```
+#### R Script to Predict Z-score
+```
+x=as.matrix(read.table("example_7mer.txt"))
+library(randomForest)
+y_pred=predict(RF.model,x)
+```
 #### prediction result
-> y_pred<bt>
+```
+> y_pred
 4.7719043 0.1287047
+```
