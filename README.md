@@ -26,8 +26,9 @@ The feature file is a text file with 2 rows and 16384 columns.
 ```
 #### R Script to Predict Z-score
 ```
-x=as.matrix(read.table("example_7mer.txt"))
 library(randomForest)
+x=as.matrix(read.table("example_7mer.txt"))
+load("RF.model.Rdata")
 y_pred=predict(RF.model,x)
 ```
 #### prediction result
