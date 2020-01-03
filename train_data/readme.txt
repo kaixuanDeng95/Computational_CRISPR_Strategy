@@ -1,2 +1,0 @@
-The file "1130sgRNA.zip" is training data X and the file "sgRNA.1130.Rdata" is the corresponding Z-score of training X.
-The file "195sgRNA.zip" is testing data X and the file "195sgRNA_y_value.csv" is the corresponding Z-score of testing X.
