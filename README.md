@@ -9,10 +9,10 @@ git clone git@github.com:kaixuanDeng95/computational-CRISPR-strategy.git
 ### How to Use
 ```
 Firstly,the Python script kmer.py should be used to get a feature file with a FASTA format input file.
-Then the RF model which is stored in Rdata file "RF.model.Rdata" can be used to predict the Z-score of the sequence.
+Then the trained RF model which is stored in Rdata file "RF.model.Rdata" can be used to predict the Z_scores of the query sequences.
 ```
 ### Demonstration
-A FASTA file with two DNA sequences is used to predict Z-score.The FASTA file "example.fasta" is tranform to feature file "example_7mer.txt" by python script "kmer.py",then the feature file is used to predict Z-score.
+A FASTA file with two DNA sequences is used for demonstrations.The FASTA file "example.fasta" is tranformed to the feature file of "example_7mer.txt" by the python script of "kmer.py". And then the feature file can be put into the trained RF model to obtain their predicted Z_scores.
 #### Input File
 ```
 >chr6:36634989-36635089
