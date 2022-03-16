@@ -1,4 +1,5 @@
-## Crisper
+## Computational CRISPR Strategy
+Public
 ### Requires
 - R>=3.5<br>
 - R packages: RandomForest,glmnet,e1071 and kernlab<br>
